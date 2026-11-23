@@ -34,9 +34,9 @@ on it in local replay, with 2 trades and a 1.98% maximum drawdown.
 
 ## Layout
 
-- `main.py` — the bot (Python 3, standard library only; speaks
+- `main.ts` — the bot (Node 22 TypeScript, erasable syntax only; speaks
   `agent-fun/bars-replay/v1`).
-- `vendor/makefun_bars.py` — the kit's protocol shim, copied byte-identical.
+- `vendor/makefun-bars.ts` — the kit's protocol shim, copied byte-identical.
 
 ## Run locally
 
